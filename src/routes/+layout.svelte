@@ -3,7 +3,7 @@
   import "../app.css";
 </script>
 
-<div class="container mx-auto h-0">
+<!-- <div class="container mx-auto h-0">
   <ul class="flex">
     <li class="mr-6">
       <a class="text-blue-500 hover:text-blue-800" href="/">Home</a>
@@ -12,7 +12,7 @@
       <a class="text-blue-500 hover:text-blue-800" href="/about">About</a>
     </li>
   </ul>
-</div>
+</div> -->
 
 {@render children()}
 
