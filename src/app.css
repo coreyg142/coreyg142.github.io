@@ -10,6 +10,9 @@
     font-size: var(--text-xl);
   } */
   a {
-    @apply text-blue-500 visited:text-purple-600 underline;
+    @apply text-blue-500 visited:text-purple-600;
+  }
+  .inline-icon {
+    @apply inline-block text-2xl;
   }
 }
