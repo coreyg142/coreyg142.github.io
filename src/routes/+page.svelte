@@ -14,7 +14,7 @@
           transitioned[i] = true;
         }, i * 150);
       });
-    }, 500);
+    }, 250);
   });
 </script>
 
