@@ -21,17 +21,17 @@
 <div class="flex h-screen">
   <div class="m-auto">
     <h1>
+      <!-- TODO: investigate hidden absolute div method -->
       {#each nameSplit as char, i}
         <span
-          class={transitioned[i] ? "font-[Workbench]" : "font-[Flow_Circular]"}
+          class="{transitioned[i]
+            ? 'font-[Doto]'
+            : 'font-[Redacted_Script]'} inline-block w-9"
         >
           {char}
         </span>
       {/each}
     </h1>
-    <!-- <h1>
-      Corey <span class="font-bold">W Gross</span>
-    </h1> -->
     <p>
       In the meantime, please visit <a
         href="https://www.github.com/coreyg142"
@@ -50,13 +50,13 @@
 <style lang="postcss">
   @reference "tailwindcss";
   h1 {
-    @apply text-[3rem] text-purple-600 font-[Flow_Circular];
+    @apply text-[4rem] text-purple-600 font-bold;
   }
   h2 {
     @apply text-[2rem] text-purple-500 font-[Nunito];
     /* font-family: "Flow Circular", system-ui; */
   }
   p {
-    @apply text-[1.2rem] text-gray-700 font-[Nunito];
+    @apply text-[1.2rem] text-gray-300 font-[Nunito];
   }
 </style>
