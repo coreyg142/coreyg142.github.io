@@ -23,10 +23,9 @@
 </script>
 
 <div class="flex h-screen">
-  <div class="m-auto w-2xl">
+  <div class="m-auto w-2xs md:w-2xl">
     <div class="name-header text-center">
       <h1>
-        <!-- TODO: investigate hidden absolute div method -->
         {#each nameSplit as char, i}
           <span
             class="{transitioned[i]
