@@ -22,6 +22,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Corey W Gross</title>
+</svelte:head>
+
 <div class="flex h-screen">
   <div class="m-auto w-2xs md:w-2xl">
     <div class="name-header text-center">
@@ -43,8 +47,8 @@
       <p>
         Hi! I'm Corey, a recent college graduate looking to start my lifelong
         career in tech! I'm a passionate developer skilled in both frontend and
-        backend development, as well as database management. I'm eager to learn
-        and grow with a team of like-minded individuals.
+        backend development, as well as data management. I'm eager to learn and
+        grow with a team of like-minded individuals.
       </p>
     </div>
     <div class="text-center">
