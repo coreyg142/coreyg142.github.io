@@ -47,7 +47,7 @@
       <p>
         Hi! I'm Corey, a recent college graduate looking to start my lifelong
         career in tech! I'm a passionate developer skilled in both frontend and
-        backend development, as well as data management I'm eager to learn and
+        backend development, as well as data management. I'm eager to learn and
         grow with a team of like-minded individuals.
       </p>
     </div>
