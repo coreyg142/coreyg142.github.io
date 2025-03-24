@@ -1,7 +1,10 @@
 <script>
   let { children } = $props();
   import "../app.css";
+  import Seo from "sk-seo";
 </script>
+
+<Seo />
 
 <!-- <div class="container mx-auto h-0">
   <ul class="flex">

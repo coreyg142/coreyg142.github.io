@@ -18,5 +18,8 @@ export default {
       precompress: false,
       strict: true,
     }),
+    prerender: {
+      origin: "https://coreygross.com",
+    },
   },
 };
