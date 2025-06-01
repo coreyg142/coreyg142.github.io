@@ -3,6 +3,7 @@
   import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
   import {
     faEnvelope,
+    faFile,
     faGraduationCap,
   } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
@@ -47,8 +48,8 @@
       <p>
         Hi! I'm Corey, a recent college graduate looking to start my lifelong
         career in tech! I'm a passionate developer skilled in both frontend and
-        backend development, as well as data management. I'm eager to learn and
-        grow with a team of like-minded individuals.
+        backend development. I'm eager to learn and grow with a team of
+        like-minded individuals.
       </p>
     </div>
     <div class="text-center">
@@ -84,6 +85,12 @@
           class="text-5xl px-1 inline-icon text-gray-300 hover:text-[#d93025]"
         />
         <span class="visually-hidden">My Email</span>
+      </a>
+      <a href="resume.pdf">
+        <Fa
+          icon={faFile}
+          class="text-5xl px-1 inline-icon text-gray-300 hover:text-purple-500"
+        />
       </a>
     </div>
   </div>
