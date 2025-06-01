@@ -51,6 +51,11 @@
         backend development. I'm eager to learn and grow with a team of
         like-minded individuals.
       </p>
+      <br />
+      <p>
+        If you're hiring for an entry-level CS role and looking for someone
+        motivated and ready to learn, I'd love to connect!
+      </p>
     </div>
     <div class="text-center">
       <h2>Connect with Me!</h2>
