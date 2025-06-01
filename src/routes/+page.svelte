@@ -54,7 +54,8 @@
       <br />
       <p>
         If you're hiring for an entry-level CS role and looking for someone
-        motivated and ready to learn, I'd love to connect!
+        motivated and ready to learn, Feel free to connect with me and view my
+        resume with the links below!
       </p>
     </div>
     <div class="text-center">
